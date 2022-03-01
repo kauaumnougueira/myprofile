@@ -1,24 +1,28 @@
 body{
-background-image: url(imagens/backimage.jpeg);
+    background-image: url(imagens/backimage.jpeg);
 }
 #acess{
-width: 150px;
-height: 150px;
-margin-left: 560px;
+    width: 150px;
+    height: 150px;
+    margin-left: 560px;
 }
 #acesss{
-display: none;
-margin-top: 135px;
-width: 130px;
-background: white;
-padding: 2%;
-border-radius: 7%;
+    display: none;
+    margin-top: 135px;
+    width: 130px;
+    background: white;
+    padding: 2%;
+    border-radius: 7%;
 }
 #acess:hover #acesss{
-display: block;
+    display: block;
 }
 #para{
-margin: auto;
-margin-left: 5px;
-font-family: Copperplate Gothic Bold;
+    margin: auto;
+    margin-left: 5px;
+    font-family: Copperplate Gothic Bold;
+    color: black;
+}   
+a{
+    text-decoration: none;
 }
