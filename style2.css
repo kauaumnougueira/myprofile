@@ -2,18 +2,20 @@ body{
     background: rgb(19, 20, 31);
     color: white;
 }
+xmp{
+    display: inline-block;
+    margin: auto;
+    color: rgb(240, 121, 198);
+}
 h2{
     font-size: 22px;  
 }
 h3{
     font-size: 20px;
 }
-xmp{
-    display: inline-block;
-    margin: auto;
-    color: rgb(240, 121, 198);
+h4{
+    font-size: 20px;
 }
-
 .stacks{
     display: block;
     height: 20px;
@@ -25,10 +27,13 @@ xmp{
     border-radius: 2px;
 }
 .stackshover{
+    background: rgb(19, 20, 31);
+    position: relative;
+    z-index: 1;
     display: block;
     padding: 1PX;
     width: 30px;
-    margin-left: 160px;
+    margin-left: 156px;
     border: 2px solid white;
 }
 #stackhoverfront{
@@ -42,6 +47,7 @@ xmp{
     display: block;
     height: auto;
     width: 150px;
+    margin-bottom: 120px;
 }
 #stackback:hover #stackhoverback{
     padding: 2px;
