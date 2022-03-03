@@ -1,5 +1,6 @@
 body{
     background-image: url(imagens/backimage.jpeg);
+    background-size: cover;
 }
 #acess{
     width: 150px;
